@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skyroads">
+      <UniqueIdentifier>{56d20901-04ae-47b8-9fb7-811157d03663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skyroads\objects3D">
+      <UniqueIdentifier>{7d96c978-a967-4850-bfcb-faf10a8676c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skyroads\common">
+      <UniqueIdentifier>{a538a6df-2bf3-44cd-9d6c-5c675103ee7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skyroads\level">
+      <UniqueIdentifier>{32969077-64b2-43db-89f1-e42124e52620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skyroads\shaders">
+      <UniqueIdentifier>{15ae02b7-6d97-4596-9173-e17e525652f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Skyroads\Skyroads.cpp">
+      <Filter>skyroads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\objects3D\Object3D.cpp">
+      <Filter>skyroads\objects3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\objects3D\Platform3D.cpp">
+      <Filter>skyroads\objects3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\objects3D\Player3D.cpp">
+      <Filter>skyroads\objects3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\common\Collision3D.cpp">
+      <Filter>skyroads\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\level\Level.cpp">
+      <Filter>skyroads\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\objects3D\LevelObject3D.cpp">
+      <Filter>skyroads\objects3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\common\GameCamera.cpp">
+      <Filter>skyroads\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\skyroads\objects3D\Asteroid3D.cpp">
+      <Filter>skyroads\objects3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Skyroads\Skyroads.h">
+      <Filter>skyroads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\common\GameCamera.h">
+      <Filter>skyroads\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\objects3D\Object3D.h">
+      <Filter>skyroads\objects3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\common\Constants.h">
+      <Filter>skyroads\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\objects3D\Platform3D.h">
+      <Filter>skyroads\objects3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\objects3D\Player3D.h">
+      <Filter>skyroads\objects3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\common\Collision3D.h">
+      <Filter>skyroads\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\level\Level.h">
+      <Filter>skyroads\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\objects3D\LevelObject3D.h">
+      <Filter>skyroads\objects3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\common\Transform3D.h">
+      <Filter>skyroads\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\skyroads\objects3D\Asteroid3D.h">
+      <Filter>skyroads\objects3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\Source\skyroads\shaders\FragmentShader.glsl">
+      <Filter>skyroads\shaders</Filter>
+    </None>
+    <None Include="..\Source\skyroads\shaders\VertexShader.glsl">
+      <Filter>skyroads\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\log.txt" />
+  </ItemGroup>
+</Project>
